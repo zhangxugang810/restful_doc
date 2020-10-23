@@ -1,0 +1,44 @@
+
+.form-control{height:auto;border:1px solid rgba(255,255,255, 0.15);-webkit-box-shadow: none;background-color: rgba(0,0,0, 0.2);color:#FFF;}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{background-color: rgba(0,0,0, 0.2);color: #ffffff;}
+.form-control:focus{border-color: rgba(255,255,255, 0.15);outline: 0;-webkit-box-shadow: none;box-shadow: none; }
+
+.btn-red{background-color: #ff7b76;color: #f2f2f2;}
+.btn-cyan{background-color: #52ccf2;color: #f2f2f2;}
+.btn-green{background-color: #a2d200;color: #f2f2f2;}
+.btn-orange{background-color: #ffc100;color: #f2f2f2;}
+.btn-amethyst{background-color: #cd97eb;color: #f2f2f2;}
+.btn-greensea{background-color: #1ccdaa;color: #f2f2f2;}
+.btn-dutch{background-color: #1cbbd2;color: #f2f2f2;}
+.btn-hotpink{background-color: #ff3385;color: #f2f2f2;}
+.btn-drank{background-color: #d5099c;color: #f2f2f2;}
+.btn-blue{background-color: #69a3d5;color: #f2f2f2;}
+.btn-redbrown{background-color: #e27d79;color: #f2f2f2;}
+.btn-slategray{background-color: #536781;color: #f2f2f2;}
+
+.btn-black-o{background-color: rgba(0,0,0, 0.2);color: #fff;}
+
+.dropdown-menu>li>a{color:#f2f2f2;}
+
+
+.bgimg0{background-image:url(../images/bg-small.jpg);background-size:200%;}
+.bgimg1{background-image:url(../images/bg_1.jpg);background-size:200%;}
+.bgimg2{background-image:url(../images/bg_2.jpg);background-size:200%;}
+.bgimg3{background-image:url(../images/bg_3.jpg);background-size:200%;}
+.bgimg4{background-image:url(../images/bg_4.jpg);background-size:200%;}
+.bgimg5{background-image:url(../images/bg_5.jpg);background-size:200%;}
+.bgimg6{background-image:url(../images/bg_6.jpg);background-size:200%;}
+
+.bgcolor1{background-color: #008444;}
+.bgcolor2{background-color: #333333;}
+.bgcolor3{background-color: #556270;}
+.bgcolor4{background-color: #2A8FBD;}
+.bgcolor5{background-color: #D8D8C0;}
+.bgcolor6{background-color: #7F94B0;}
+
+.border{border: 1px solid rgba(255,255,255, 0.2); border-left:0;border-radius:0 4px 4px 0;}
+
+.bgtool{background-color: rgba(0,0,0, 0.6);}
+textarea.form-control{resize: none; padding:10px;}
+
+.dropdown-menu{right:0; left:auto;}

@@ -1,0 +1,37 @@
+html, body{margin:0;height:100%; font-family: 'Microsoft Yahei';}
+body{min-height:850px;}
+
+.loginbox{width:560px;height:100%; margin: 0px auto 0 auto; background-color:rgba(0, 0, 0, 0.3); padding:80px;position:relative;}
+.loginbox .welcome{width:100%;padding-top:10px;}
+.loginbox .welcome .logo{width:300px;margin: 0 auto; text-align: center;}
+.loginbox .welcome .txt{font-family: "Roboto Slab", serif; font-size: 26px; text-align: center; padding:50px 20px 20px 20px;color:#FFF;}
+.loginbox .welcome .txt span{font-weight:bold;}
+.loginbox .login{}
+.loginbox .login .loginMsg{color:#1ccdaa; text-shadow: 3px 3px 3px rgba(0,0,0, 0.5);text-align: center; font-weight:bold;}
+.loginbox .login .loginTitle{}
+.loginbox .login .loginBody{margin:0;padding:20px 0 0 0;display: block;width:100%;}
+.loginbox .login .loginBody .input-group{margin:20px 0;background-color:rgba(0,0,0, 0.2); border-radius: 4px;}
+.loginbox .login .loginBody .input-group:active{background-color:rgba(0,0,0, 0.3);}
+.loginbox .login .loginBody .input-group input{font-size: 18px;height: 50px; line-height: 50px;color:#f2f2f2; font-family:"Microsoft Yahei"; color: #fff !important; border:0 !important; background: none; -webkit-box-shadow: none;}
+.loginbox .login .loginBody .input-group .input-group-addon{border:0;color:#aaa;background: none;cursor: pointer;}
+.loginbox .login .loginBody .input-group .input-group-addon i{width: 25px;font-size: 18px;}
+/*.loginbox .login .loginMsg{padding:5px 0; font-size: 20px; color: #f00;}*/
+.loginbox .login .loginBtns{padding-top:20px;border-top: 5px dashed rgba(0, 0, 0, 0.1);}
+.loginbox .login .loginRemember{height: 50px; line-height: 30px;}
+.loginbox .login .loginRemember .remember a .fa-square{display:none;}
+.loginbox .login .loginRemember .remember a .fa-check-square{display:inline;}
+.loginbox .login .loginRemember .remember.icon a .fa-square{display:inline;}
+.loginbox .login .loginRemember .remember.icon a .fa-check-square{display:none;}
+
+.loginbox .login .loginRemember div{color:#FFF;}
+.loginbox .login .loginRemember div a{color:#FFF; text-decoration:none;}
+.loginbox .login .loginRemember div.remember{float: left;}
+.loginbox .login .loginRemember div.remember i{cursor:pointer;font-size: 17px}
+.loginbox .login .loginRemember div.remember i:first-child{display:none;}
+.loginbox .login .loginRemember div.forgot{float:right;}
+
+.loginbox .login .backgrounds{padding-top:20px;}
+.loginbox .login .backgrounds ul{display:block;margin:0;padding:5px 0; text-align: center;}
+.loginbox .login .backgrounds ul li{display:inline-block; list-style-type: none;height:15px;width:15px; margin:0 2px; border-radius: 8px;cursor:pointer;}
+
+.loginbox .copyright{padding:10px 0;color:#999; width:100%; text-align:center;}

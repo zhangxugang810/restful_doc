@@ -1,0 +1,17 @@
+html, body{height:100%;width:100%; margin:0;padding:0; overflow-x: hidden;}
+.msg-pos{top:50%;left:50%; position: absolute; height:191px; width:608px;}
+.msg-border{width:602px;height:185px;top:-50%;left:-50%;position: absolute; border-radius: 8px; background:url(images/alertbg.png);}
+.msg{width:600px; height:183px;}
+.msg h1{font-size:14px; color:#00D2FF; margin:0;border-radius:2px 2px 0 0; height:30px; line-height:30px; padding-left:10px;}
+.msg dl{padding:20px; margin:0; font-size: 14px;}
+.msg dl dd{float:left;margin:0; width:550px; height:112px; margin-left:10px;}
+.msg dl dd span{display:block; height:30px; line-height:30px; font-weight: bold;}
+.msg dl dd .error_txt{color:#B94A48;}
+.msg dl dd .warring_txt{color:#3A87AD;}
+.msg dl dd .success_txt{color:#00FF12;}
+.msg dl dd label{color:#fff; font-size: 12px; height:60px; line-height: 30px; margin-top:22px; display: block;}
+.msg dl dd label a{font-weight: bold; margin:0 5px;}
+.msg dl dd label a:link{color:#33FEED; text-decoration: none;}
+.msg dl dd label a:visited{color:#33FEED; text-decoration: none;}
+.msg dl dd label a:hover{color:#F00; text-decoration: none;}
+.clear{clear:both;}

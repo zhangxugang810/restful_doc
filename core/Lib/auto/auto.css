@@ -1,0 +1,8 @@
+html,body{margin:0;padding:0; width:100%; height:100%;}
+.msg-pos{top:50%;left:50%; position: absolute; height:191px; width:608px;}
+.msg-border{width:602px;height:185px;top:-50%;left:-50%;position: absolute; border:3px solid #A3DCF8; border-radius: 5px 5px 5px 5px;}
+.msg{width:600px; height:183px; border:1px solid #39c; border-radius:3px 3px 3px 3px; background: #FFF; }
+.msg h1{font-size:14px; color:#FFF; background:#39c; border-bottom: 1px solid #39c; margin:0;border-radius:2px 2px 0 0; height:30px; line-height:30px; padding-left:10px;}
+.msg dl{padding:20px; margin:0; font-size: 14px;}
+.msg dl dd{float:left;margin:0; width:550px; height:112px;line-height: 112px; font-weight: bold; margin-left:10px; text-align: center;color:#367102;}
+.clear{clear:both;}

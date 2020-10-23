@@ -1,2 +1,4 @@
-# restful_doc
-Restful Document generating system
+#APIDOC
+1.缺少首页内容
+2.缺少美化
+4.缺少权限方法应用

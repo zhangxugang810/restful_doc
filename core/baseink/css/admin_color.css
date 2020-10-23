@@ -1,0 +1,25 @@
+.header .top{background:url(../images/top_bg.png);}
+.header .top .logo{background:url(../images/inkphp.png);}
+a:link{color:#999;}
+a:visited{color:#999;}
+a:hover{color:#fff;}
+
+.header .top .tp div a:link{color:#FFF;}
+.header .top .tp div a:visited{color:#FFF;}
+.header .top .tp div a:hover{color:#00cfcf;}
+.header .navs{background: url(../images/border_bg.png);}
+.header .navs a:link{color:#FFF;border-top-color:#000106;}
+.header .navs a:visited{color:#FFF;}
+.header .navs a:hover{color:#00cfcf;}
+.header .navs a.hover{color:#00cfcf;background: url(../images/nav_bg.png);}
+.header .top .quick{color:#fff;}
+.header .top .quick a:link{color:#fff;}
+.header .top .quick a:visited{color:#fff;}
+.header .top .quick a:hover{color:#00cfcf;}
+.main .l .ltop{background:url(../images/ltop_bg.png);}
+.main .l .ltop span{background: url(../images/man.png) no-repeat 50px 5px;color:#333;}
+/*.main .l .lmain a:link{background-color:#f2f2f2;color:#333;}
+.main .l .lmain a:visited{background-color:#f2f2f2;color:#333;}
+.main .l .lmain a:hover{background-color:#fff;color:#00cfcf;}
+.main .l .lmain a.hover{background-color:#fff;color:#00cfcf;}*/
+.footer{color:#FFF; font-family:'Microsoft Yahei'}

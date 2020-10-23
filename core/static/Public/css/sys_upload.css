@@ -1,0 +1,46 @@
+.upload{width:600px; font-family: 'Microsoft Yahei'}
+.upload .uploadTitle{font-size:14px; height:40px; line-height: 40px; color:#666;color:#FFF; margin: 10px 10px 0 10px;}
+.upload .uploadTitle span{display:block;float:left;margin: 0 2px 0 0; cursor: pointer; height:40px; border-bottom: 0; padding:0 20px; border-radius: 5px 5px 0 0;}
+.upload .uploadTitle span:hover{background:url(../images/curposbg.png);}
+.upload .uploadTitle .selected{color:#FFF; background:url(../images/mainbg.png);}
+.upload .uploadBody{}
+.upload .uploadBody .uploadB{display:none;}
+.upload .uploadBody .uploadB .fieldset{border:1px solid #afe14c;margin:10px 0;padding:20px 10px;}
+.upload .uploadBody .uploadB .fieldset span.legend{position: relative;background-color: #FFF;padding: 3px;top: -30px;font: 700 14px Arial, Helvetica, sans-serif;color: #73b304;}
+.upload .uploadBody .uploadB .flash{margin: 20px 10px;border-color: #D9E4FF;-moz-border-radius-topleft : 5px;-webkit-border-top-left-radius : 5px;-moz-border-radius-topright : 5px;-webkit-border-top-right-radius : 5px;-moz-border-radius-bottomleft : 5px;-webkit-border-bottom-left-radius : 5px;-moz-border-radius-bottomright : 5px;-webkit-border-bottom-right-radius : 5px;}
+.upload .uploadBody .uploadB #divStatus{display:none;}
+.upload .uploadBody .uploadB #divMovieContainer{height:25px; margin:5px;}
+.upload .uploadBody .uploadB #divMovieContainer object{float:left; margin-left:5px;}
+.upload .uploadBody .uploadB #divMovieContainer a{font-size:12px; color:#666; margin-left:10px; text-decoration: none; text-align: center;display:block; width:69px; height:23px; line-height:23px; float:left; border:1px solid #CCC;}
+.upload .uploadBody .uploadB #divMovieContainer a:link{color:#ccc;}
+.upload .uploadBody .uploadB #divMovieContainer a:visited{color:#ccc;}
+.upload .uploadBody .uploadB #divMovieContainer a:hover{color:#F00;}
+.upload .uploadBody .uploadB #divMovieContainer a:active{color:#00F;}
+.upload .uploadBody .selectB{display:none;}
+.upload .uploadBody .netB{margin:0 10px 10px 10px; font-size:12px; color:#fff; padding:20px; background:url(../images/mainbg.png);}
+.upload .uploadBody .netB input[type=text]{border:1px solid rgba(0,0,0, 0.25); font-size:12px; padding:0 5px; width:334px; height:25px; line-height:25px; color:#999;}
+.upload .uploadBody .netB input[type=button]{ font-family: 'Microsoft Yahei';
+    background-color: rgba(240, 173, 78, 0.55);
+    border-color: #EEA236;
+    color: #FFFFFF;
+    -moz-user-select: none;
+    border: 1px solid rgba(238, 162, 54, 1);
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin:0 0 0 5px;
+    padding: 3px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;}
+.upload .uploadBody .netB input[type=submit]{border:1px solid #CCC;cursor: pointer; font-size:12px; padding:4px 10px; margin:0 0 0 3px; color:#666;}
+.progressWrapper{width: 568px;overflow: hidden;}
+a.progressCancel{font-size: 0;display: block;height: 14px;width: 14px;background-image: url(../../../../core/static/Public/css/images/cancelbutton.gif);background-repeat: no-repeat;background-position: -14px 0px;float: right;}
+a.progressCancel:hover{background-position: 0px 0px;}
+.progressName{font-size: 8pt;font-weight: 700;color: #555;width: 534px;height: 14px;text-align: left;white-space: nowrap;overflow: hidden;}
+.progressBarStatus{margin-top: 2px;width: 548px;font-size: 7pt;font-family: Arial;text-align: left;white-space: nowrap;}
+.progressBarInProgress, .progressBarComplete, .progressBarError{font-size: 0;width: 0%;height: 2px;background-color: blue;margin-top: 2px;}
+.progressContainer{margin: 5px;padding: 4px;border: solid 1px #E8E8E8;background-color: #F7F7F7;overflow: hidden;}

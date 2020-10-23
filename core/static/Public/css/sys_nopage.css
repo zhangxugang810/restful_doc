@@ -1,0 +1,15 @@
+html,body{width:100%;padding:100%;margin:0;padding:0; font-family: 'Microsoft Yahei';}
+body{height:100%;background:url(../images/j.jpg);background-size: cover;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/j.jpg',sizingMethod='scale');}
+.box404{width:600px; margin:50px auto 0 auto; height: 140px; margin-top:50px;}
+.box404 .left{width:233px; height:140px; float:left;}
+.box404 .left h1{color: #FFFFFF;font-size: 130px;font-weight: 300;line-height: 140px;margin: 0;text-rendering: optimizelegibility;}
+.box404 .right{width:338px; height:125px;float:right; padding-top:15px;}
+.box404 .right h3{font-size: 24px; margin:10px 0 20px 0;font-weight: 500; color:#FFF;}
+.box404 .right p{color:#FFF; margin:0 0 10px;font-size: 14px;}
+.box404 .right p a {color: #FFFFFF;text-decoration: none;}
+.boxseach{width:600px; margin:20px auto 0 auto; padding:20px; height:34px; background-color: rgba(0, 0, 0, 0.25);}
+.boxseach div{float:left;width:500px; height:32px;}
+.boxseach div input{width:470px; color:#fff;padding:0 0 0 30px; line-height: 32px; height:32px;background-color: rgba(0, 0, 0, 0.25); background-image:url(../images/search.png); background-repeat: no-repeat; background-position: 5px center; border-radius: 4px 0 0 4px;border: 1px solid rgba(255, 255, 255, 0.25);}
+.boxseach span{display:block;height:34px; width:87px;float:left; padding-top:1px;}
+.boxseach span button{width:85px;height:33px;background-color: rgba(66, 139, 202, 0.55);color: #FFFFFF;-moz-user-select: none;border: 1px solid rgba(0, 0, 0, 0);border-radius:0 4px 4px 0;cursor: pointer;display: inline-block;font-size: 14px;font-weight: normal; border:1px solid #357EBD; font-family: 'Microsoft Yahei';margin-bottom: 0;padding: 6px 12px;text-align: center;vertical-align: middle;white-space: nowrap;}
+.boxseach span button:hover{border:1px solid #285e8e;}

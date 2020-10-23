@@ -1,0 +1,49 @@
+
+a:hover{}
+a{color:#1ccdaa;}
+a:hover, a:focus{color:#5bc0de;}
+/*头部导航条*/
+.navbar{border-radius:0; border:0; border-bottom:1px solid rgba(255,255,255, 0.15);}
+
+/*步骤显示*/
+.step{height:102px; background-color: rgba(0,0,0, 0.2); margin-top:-20px;border-bottom:1px solid rgba(255,255,255, 0.15);}
+.step ul{margin:50px 0;padding:0;height:0;line-height:0;position:absolute;border-top:2px solid rgba(255,255,255, 0.15);border-bottom:2px solid rgba(0,0,0, 0.3); width: 100%;display: block; clear: both;}
+.step ul li{height: 30px;margin-top:-15px; line-height: 30px; position:relative; text-align: center; width:20%; float: left; list-style-type: none;}
+.step ul li i{color:#F0F0F0; font-size:30px; text-shadow:5px 5px 5px #000000;}
+.step ul li a{display:inline-block; position: absolute; top:-30px; text-align: center; left:50%; margin-left:-28px; color:#fff; text-decoration:none;text-shadow:5px 5px 5px #000000;}
+.step ul li.selected a{color:#1693A5}
+.step ul li.selected i{color:#1693A5}
+
+.backgrounds{float:right;height:50px;}
+.backgrounds ul{display:block;margin:0;padding:17px 0; text-align: center;}
+.backgrounds ul li{display:inline-block; list-style-type: none;height:15px;width:15px; margin:0 2px; border-radius: 8px;cursor:pointer;}
+
+.mainbg{background-color:rgba(0,0,0, 0.2);height:calc(100% - 204px); overflow-y:auto;}
+.xieyi, .first, .second{border:1px solid rgba(255,255,255, 0.15); margin:55px 440px; height: calc(100% - 110px); overflow-y: auto; color:#FFF; border-radius: 5px;background-color:rgba(255,255,255, 0.15); padding:20px; color:#fff; line-height: 25px;}
+
+.footer{height:50px;border-top:1px solid rgba(255,255,255, 0.15); background:rgba(0,0,0, 0.4)}
+.btn-footer{margin:10px;float: right;}
+.xieyi-footer{height: 50px; line-height: 50px; color:#FFF; float:left;}
+.xieyi-footer label{margin: 0;padding: 0;}
+
+.first{padding:50px;}
+.first .title{padding:10px 0; border-bottom: 5px dotted rgba(255, 255, 255, 0.35); margin-bottom: 20px;}
+.first .pbtm{height:50px;}
+.table-bordered{border:1px solid rgba(255,255,255, 0.2);}
+.table > thead:first-child > tr:first-child > th{border-top: 0;}
+.table > tbody > tr > td{padding: 8px;line-height: 1.42857143;vertical-align: top;border-top: 1px solid #ddd;}
+.table-bordered > thead > tr > th{border: 1px solid rgba(255,255,255, 0.2);}
+.table-bordered > thead > tr > th{border-bottom-width: 2px; background:rgba(0,0,0, 0.3);}
+
+.table-bordered > tbody > tr > td{border: 1px solid rgba(255,255,255, 0.2);background:rgba(0,0,0, 0.1);}
+.table-hover > tbody > tr:hover{background:rgba(0,0,0, 0.1)}
+
+.text-success{text-shadow: 5px 5px 5px rgba(0,0,0, 0.2); color:#00ff00;}
+.text-danger{text-shadow: 5px 5px 5px rgba(0,0,0, 0.2); color:#ff0000;}
+.updateTable {border-top: 1px solid rgba(255,255,255, 0.15);border-left: 1px solid rgba(255,255,255, 0.15);width: 100%;}
+.updateTable tbody tr th{text-align: right;width: 20%;background-color: rgba(0,0,0, 0.2);}
+.updateTable tbody tr td{background-color: rgba(0,0,0, 0.1);}
+.updateTable tbody tr td div{float:left;width:70%;}
+.updateTable tbody tr td span{display:block;float: left;color:#FFF;padding:3px 10px;width:30%; color:#F00;text-shadow: 3px 3px 5px rgb(0, 0, 0);}
+.updateTable tbody tr th, .updateTable tbody tr td{border-bottom: 1px solid rgba(255,255,255, 0.15);border-right: 1px solid rgba(255,255,255, 0.15);padding: 15px;font-size: 14px;}
+.updateTable tbody tr td input{background-color: rgba(0,0,0, 0.2);border: 1px solid rgba(255,255,255, 0.3);border-radius: 3px;padding: 5px;}

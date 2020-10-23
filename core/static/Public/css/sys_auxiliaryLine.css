@@ -1,0 +1,2 @@
+.transverseLine{position: absolute; z-index:99;width:100%;left:0;height:1px; line-height: 1px; font-size:0; background:#4affff;cursor:ns-resize;}
+.longitudinalLine{position: absolute; z-index: 99;height:100%;top:0;width:1px; font-size:0; background:#4affff;cursor: w-resize;}

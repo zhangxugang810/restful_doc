@@ -1,0 +1,16 @@
+html, body {color: black; font-family: 'simsun';margin:0;padding:0;height:100%;}
+.title{font-weight: bold;line-height: 59px;padding-left: 13px;color:#FFF; font-size:16px; margin:0; background:rgba(0,0,0, 0.2); border-bottom:1px solid rgba(255,255,255, 0.2);}
+.exceptionBody{padding:20px;}
+a{text-decoration: none;}
+a:link {color: #F00;}
+a:visited {color: #F00;}
+a:hover {color: #39f;}
+.bg1 {background:none;}
+.bg2 {background:rgba(0,0,0,0.2);}
+.table {border-top:1px solid rgba(255,255,255,0.2);border-left:1px solid rgba(255,255,255,0.2);font-family: Microsoft Yahei;}
+.table tr th, .table tr td{border-bottom:1px solid rgba(255,255,255,0.2);border-right:1px solid rgba(255,255,255,0.2); font-size:14px;}
+.table tr th{padding:10px 0; font-bold:normal;}
+.table tr td{padding:5px 10px;}
+.table tr td.center{text-align:center;}
+.info {background:rgba(0,0,0, 0.2);border: 0px solid #aaaaaa;color: #fff;font-size: 11pt;line-height: 160%;margin-bottom:10px;padding: 20px;}
+.info p{margin-top:0;}

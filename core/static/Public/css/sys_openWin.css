@@ -1,0 +1,11 @@
+.cover{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter:alpha(opacity=50);opacity:.5;position:fixed;background:#000;width:100%;height:100%;top:0;left:0;z-index:10010;display:none;}
+.openWin{min-width:300px;z-index:10010;position:fixed;display:none;border:1px solid rgba(255,255,255,0.25);}
+.openWin .tWin{height:60px;cursor:move;color:#fff;background:url(../images/curposbg.png);line-height:50px;margin:0;padding:0;position:relative;}
+.openWin .tWin .ticon{display:block;float:left;margin-left:20px;height:60px;line-height:60px;}
+.openWin .tWin .titleWin{display:block;height:60px;line-height:55px;float:left;color:#fff;font-size:12px;font-weight:bold;margin:0 0 0 10px;text-align:left;font-size:20px;}
+.openWin .tWin .closeWin{width:25px;height:25px;cursor:pointer;font-size:20px;color:#FFF;position:absolute;right:10px;top:10px;line-height:25px;text-align:center;margin-top:5px;}
+.openWin .tWin .maxWin{width:25px;height:25px;cursor:pointer;font-size:20px;color:#FFF;position:absolute;right:35px;top:10px;line-height:25px;text-align:center;margin-top:5px;}
+.openWin .tWin .minWin{width:25px;height:25px;cursor:pointer;font-size:20px;color:#FFF;position:absolute;right:60px;top:10px;line-height:25px;text-align:center;margin-top:5px;}
+.openWin .tWin .resizeWin{width:25px;height:25px;cursor:pointer;font-size:20px;color:#FFF;position:absolute;right:35px;top:10px;line-height:25px;text-align:center;margin-top:5px;}
+.openWin .winBody{min-height:100px;margin:10px}
+.openWin .winBody img{max-width:650px;max-height:500px;}

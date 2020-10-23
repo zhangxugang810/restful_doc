@@ -1,0 +1,25 @@
+/*html, body{height:100%;margin:0;padding:0; font-size:12px; font-family: '宋体';}
+.header{height:100px; background:#ddd; border-bottom: 1px solid #aaa;position: relative;}
+.header .mid{height:100px;float:left; position: relative; padding:0 15px;}
+.header .mid .left{float:left;height:100px;}
+.header .mid .left b{display:block;float:left; line-height: 100px;padding:0 10px; position: relative; z-index: 999}
+.header .mid .left b .downList{width:150px; border:1px solid #aaa; height:30px; line-height: 30px;cursor: pointer; font-size: 12px;margin-top:35px; background:#FFF; position: relative;}
+.header .mid .left b .downList i{font-style: normal;font-weight:normal;line-height: 30px; display:block;padding:0 5px;width:109px; float:left;}
+.header .mid .left b .downList u{display:block; width:29px; border-left: 1px solid #aaa; background:url(../images/arrow.png) no-repeat center center; height:30px;float:left; ;}
+.header .mid .left b .downList ul{width:150px; border:1px solid #aaa;margin:0;padding:0; font-size: 12px; position: absolute; display:none; top:30px; background:#FFF; border-bottom: 0;left:-1px}
+.header .mid .left b .downList ul li{display:block; list-style-type: none; border-bottom: 1px solid #aaa;line-height: 30px; padding-left:15px;font-style: normal;font-weight:normal;height:30px;}
+.header .mid .left b .downList ul li:hover{background:#ddd;}
+.header .mid .left b select{margin-top:35px; border:1px solid #aaa;min-width: 100px; height:30px; padding:0;font-size: 12px; line-height: 30px;}
+.header .mid .left b select option{height:30px; line-height: 30px;font-size: 12px;}
+.header .mid .middle{float:left;padding-left:10px;}
+.header .mid .middle textarea{width:300px;height:70px; resize: none; border:1px solid #aaa;font-size: 12px;margin:9px 0; padding:5px;}
+.header .mid .btn{float:left;}
+.header .mid .btn input{height:82px; width:82px; border:1px solid #aaa; background:#bbb; margin:9px 0; font-size:16px; color:#FFF; font-weight: bold; border-left:0;}
+.header .mid .cbox{float:left; padding:20px 10px 10px 10px; height:60px;line-height: 20px; width:62px; text-align: center;}
+.header .mid .cbox a{color:#333; text-decoration: none;}
+.header .right{float:left; padding:0; height:100px;background:#ddd; z-index: 1;}
+.header .right #description{height:100px;margin:0 auto;line-height: 25px;}
+.header .right #description ul{margin:0;padding:0;}
+.header .right #description ul li{list-style-type:none;float:left;display:block;}
+.header .right #description ul b{height:15px;width:0; margin:5px 10px; border-left:1px solid #fff; border-right:1px solid #000; display:block; float:left;}
+.main{font-size:12px; overflow: auto;line-height: 25px;padding:20px;}*/

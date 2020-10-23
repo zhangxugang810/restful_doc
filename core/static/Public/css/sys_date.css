@@ -1,0 +1,34 @@
+.datebox{position: relative; height:25px; float:left;}
+.dateSelector{width:280px; border:1px solid #ccc; background:#fff; position: absolute; top:0;right:-281px;z-index:1000;}
+.dateSelector .dateHeader{height:30px;line-height: 30px; border-bottom: 1px solid #ccc; background:#eee; text-align: center;}
+.dateSelector .dateHeader a, .dateSelector .dateHeader .selectym{font-style: normal;display:block; font-weight: bold; float:left; }
+.dateSelector .dateHeader a{width:19px;height:14px; margin-top:8px;background-image:url(images/menu.gif); background-repeat: no-repeat;}
+.dateSelector .dateHeader .minusyear{margin-left:10px;}
+.dateSelector .dateHeader .minusyear:link{background-position: -216px -488px;}
+.dateSelector .dateHeader .minusyear:visited{background-position: -216px -488px;}
+.dateSelector .dateHeader .minusyear:hover{background-position: -216px -456px;}
+
+.dateSelector .dateHeader .minusmonth:link{background-position: -246px -488px;}
+.dateSelector .dateHeader .minusmonth:visited{background-position: -246px -488px;}
+.dateSelector .dateHeader .minusmonth:hover{background-position: -246px -456px;}
+
+.dateSelector .dateHeader .plusyear:link{background-position: -185px -488px;}
+.dateSelector .dateHeader .plusyear:visited{background-position: -185px -488px;}
+.dateSelector .dateHeader .plusyear:hover{background-position: -185px -456px;}
+
+.dateSelector .dateHeader .plusmonth:link{background-position: -276px -488px;}
+.dateSelector .dateHeader .plusmonth:visited{background-position: -276px -488px;}
+.dateSelector .dateHeader .plusmonth:hover{background-position: -276px -456px;}
+
+.dateSelector .dateHeader .close{width:14px; background:url(images/menu.gif) no-repeat -157px -456px;display:block; float:right; height:14px; margin: 8px 8px 0 0;}
+ .dateSelector .dateHeader .selectym{height:30px; line-height: 30px;}
+.dateSelector .dateBody{}
+.dateSelector .dateBody .week{height:30px; line-height: 30px; text-align: center;border-bottom: 1px solid #ccc; padding:0 7px;}
+.dateSelector .dateBody .week em, .dateSelector .dateBody .week span{display:block;width:38px; float:left; font-weight: bold;}
+.dateSelector .dateBody .week em{color:#F00; font-style: normal;}
+.dateSelector .dateBody .dayList{margin:0;padding:7px;}
+.dateSelector .dateBody .dayList a{float:left; list-style-type: none; height:30px; line-height: 30px; width:38px; text-align: center;}
+.dateSelector .dateBody .dayList a:link{background:#fff;}
+.dateSelector .dateBody .dayList a:visited{background:#fff;}
+.dateSelector .dateBody .dayList a:hover{background:#ddd;}
+.dateSelector .dateBody .dayList a.hover{background:#ddd; color:#00CFCF;}

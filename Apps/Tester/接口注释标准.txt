@@ -1,0 +1,74 @@
+﻿1，类注释
+/**
+ * @classname 类名称
+ * @classaccess public|private  
+ * @decription 类作用描述
+ * @author 作者
+ * @updateTime 更新时间
+ * @errorCode 错误代码说明，如：100001|缺少字段|补充说明
+ * @errorCode 错误代码说明，如：100001|缺少字段|补充说明
+ */
+
+2,每个接口注释
+/**
+ * @see 函数汉字名称
+ * @describe 详细说明
+ * @access public/private/protected 
+ * @name delPic 
+ * @method POST 
+ * @requestType FORM/JSON
+ * @defget no 如果含有这个则不显示默认GET参数
+ * @notice 一定要传id哦 
+ * 
+ * @example str/param(content) 示例参数类型(示例参数内容)
+ * @param page|int|unrequired|页码
+ * @param picid|int|required|图片id 
+ * @param mobile|string|required|用户手机号 
+ *
+ * @header page|int|unrequired|页码
+ * @header picid|int|required|图片id 
+ * @header mobile|string|required|用户手机号 
+ *
+ * @baseauth yes|username|password //需要|默认用户名|默认密码
+ * 
+ * @return user_id|int|用户id 
+ * @return users|table|users|*|说明
+ * @return users|array|说明 
+ * @return_users id|int|编号 
+ */
+
+接口注释说明：
+1,所有接口的注释都应该严格按照以下格式及要求撰写。
+/**
+ * @see                                 //函数汉字名称，描述函数一行说明：，描述用一行就够了，不能超过一行。
+ * @describe                            //详细说明
+ * @access public/private/protected     //接口调用权限
+ * @name delPic                         //函数名称
+ * @method POST                         //传参类型，如果不需要传参数，此行省略
+ * @requestType FORM/JSON               //数据提交方式
+ * @defget no                          //如果含有这个则不显示默认GET参数，
+ * @notice 一定要传id哦                 //注意事项
+ * @default true
+ * @datanotice 动态标示名称|url         //动态标示名称|要显示的网址（相对路径）|宽度|高度
+ * @author XXX,2015年12月08日,创建|XXX,2015年12月08日,测试原因
+ *
+ * @example str/param(content) 示例参数类型(示例参数内容：JSON字符串，或者安装下面格式的字符串：AppId:258f9d3d051d64|AppSecret:ZGUwMDAxYTRjMTM1ZDNjNDE4OWJmYzU0N2QwODBkNjI)
+ *
+ *                                      //此处应有换行
+ * @param picid|int|required|图片id|说明|text             //字段名|类型|必选|字段说明|默认是不填的，如果需要的是大数据传输就填“text”
+ * @param picname|string|unrequired|图片名称|说明      //字段名|类型|非必选|字段说明
+ *                                      //此处应有换行
+ * @header picid|int|required|图片id|说明|text             //字段名|类型|必选|字段说明|默认值，
+ * @header picname|string|unrequired|图片名称|说明|text    //字段名|类型|非必选|字段说明|默认值，
+ *
+ * @baseauth yes|username|password //需要|默认用户名|默认密码 //yes需要，如不需要请删除改行
+ *                                     //此处应有换行
+ * @return |null|    //当返回的数据为空字符串时，用此格式
+ * @return |int|编号         //   |类型|参数说明   当返回的数据没有键，只有值时，用此格式
+ * @return user_id|int|用户id          //返回参数名|类型|参数说明
+ * @return users|table|users|*        //返回参数名|表字段类型|表名|字段     对于返回的数组元素均为某个表的字段的情况，可以直接注明表名和要返回的字段名。
+ * @return users|array|users|*        //返回参数名|数组类型|参数说明       对于返回的数组元素需要逐个描述的情况
+ * @return_users id|int|编号          //users数组元素字段名|类型|参数说明     返回的users数组的元素id
+ * @return_users pics|array|相册        //users数组元素字段名|类型|参数说明     返回的users数组的元素pics,注意此时pics也是一个数组，
+ * @return_users_pics path|string|相片路径     //pics数组元素字段名|类型|参数说明    返回的users数组的元素pics,此时数组pics中的元素path的表示方法，
+ */

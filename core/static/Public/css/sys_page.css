@@ -1,0 +1,12 @@
+.pageBox{height:30px; margin:10px; padding:0 10px; line-height: 30px; font-size:12px; text-align: right; color:#666;}
+.pageBox input{float:right;}
+.pageBox input[type=text]{margin: 0 0 0 10px; border:1px solid #ccc; font-size:12px;height:21px;line-height: 21px; text-align: center;}
+.pageBox input[type=submit]{border:1px solid #ccc;border-left:0; font-size:12px;height:25px;line-height: 25px; text-align: center;}
+.pageBox .goPage{text-decoration: none;}
+.pageBox .goPage:link{color: #666;}
+.pageBox .goPage:visited{color:#666;}
+.pageBox .goPage:hover{color:#F00;}
+.pageBox .pageList{float:right;}
+.pageBox .pageList .numPage{display:block; float:left; width:20px; height:20px; line-height: 20px; border:1px solid #CCC; text-align: center;margin:0 5px;}
+.pageBox .pageList span{display:block;float:left; font-weight: bold; width:20px; height:20px; line-height: 20px; border:1px solid #CCC; text-align: center;margin:0 5px; background: #EEE;}
+.pageBox .pageList em{display:block;float:left; width:20px; height:20px; line-height: 20px; text-align: center;margin:0 5px; font-style: normal;}
